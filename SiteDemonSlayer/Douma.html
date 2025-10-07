@@ -11,6 +11,7 @@
 
   <header class="Douma-section">
     <div class="overlay"></div>
+    <button id="langToggle" class="lang-btn">EN 🇺🇸</button>
     <h1 class="titleDouma">Douma</h1>
   </header>
 
@@ -24,8 +25,8 @@
         <a href="index.html" class="back-button">Go Back to Home</a>
       </div>
 
-      <h2>Douma - Lua Superior 2</h2>
-      <p>
+      <h2 data-template = "Douma-h2">Douma - Lua Superior 2</h2>
+      <p data-template="Douma-p">
         Douma (童磨) é um dos antagonistas mais perigosos de Demon Slayer. Originalmente humano, foi transformado em demônio por Muzan Kibutsuji e tornou-se o Lua Superior 2. Líder do culto Eternal Paradise Faith, Douma atrai seguidores para seu próprio prazer macabro.<br><br>
         Frio, insensível e psicopata, ele vê os humanos como alimento e se alimenta de suas emoções, especialmente da tristeza e desespero.<br><br>
         Possui habilidades sobrenaturais, incluindo regeneração avançada, controle de gelo e ataques letais com leques de ferro. Douma foi finalmente derrotado por uma aliança de caçadores, utilizando veneno de flor de wisteria para superar sua regeneração.
@@ -41,7 +42,7 @@
     <h3>Status Base</h3>
 
     <div class="stat">
-        <span>Força</span>
+        <span data-label = "strength">Força</span>
         <div class="progress-bar">
           <div class="fill"></div>
           <span class="percentage"></span>
@@ -49,7 +50,7 @@
     </div>
 
     <div class="stat">
-        <span>Velocidade</span>
+        <span data-label="speed">Velocidade</span>
         <div class="progress-bar">
           <div class="fill"></div>
           <span class="percentage"></span>
@@ -57,7 +58,7 @@
     </div>
 
     <div class="stat">
-        <span>Durabilidade</span>
+        <span data-label="durability">Durabilidade</span>
         <div class="progress-bar">
           <div class="fill"></div>
           <span class="percentage"></span>
@@ -73,7 +74,7 @@
     </div>
 
     <div class="stat">
-        <span>QI</span>
+        <span data-label="iq">QI</span>
         <div class="progress-bar">
           <div class="fill"></div>
           <span class="percentage"></span>
@@ -85,6 +86,6 @@
     <p>Este site é apenas um site feito por fã, informações podem não ser precisas</p>
   </footer>
 
-  <script src="scripts.js"></script>
+  <script src="scriptSupreme.js"></script>
 </body>
 </html>

@@ -11,6 +11,7 @@
 
   <header class="Akaza-section">
     <div class="overlay"></div>
+    <button id="langToggle" class="lang-btn">EN 🇺🇸</button>
     <h1 class="titleAkaza">Akaza</h1>
   </header>
 
@@ -21,8 +22,8 @@
 
   <section class="akaza-info-section">
     <div class="Akaza-text">
-      <h2>Akaza - Lua Superior 3</h2>
-      <p>
+      <h2 data-template = "Akaza-h2">Akaza - Lua Superior 3</h2>
+      <p data-template = "Akaza-p">
         Akaza é um dos Doze Luas Superiores, ocupando a posição de Lua Superior Três.
         Extremamente habilidoso em combate corpo a corpo, ele utiliza técnicas de artes marciais
         demoníacas combinadas com uma força e velocidade sobre-humanas. Akaza busca incessantemente
@@ -34,7 +35,7 @@
     <h3>Status Base</h3>
 
     <div class="stat">
-        <span>Força</span>
+        <span data-label = "strength">Força</span>
         <div class="progress-bar">
           <div class="fill"></div>
           <span class="percentage"></span>
@@ -42,7 +43,7 @@
     </div>
 
     <div class="stat">
-        <span>Velocidade</span>
+        <span data-label="speed">Velocidade</span>
         <div class="progress-bar">
           <div class="fill"></div>
           <span class="percentage"></span>
@@ -50,7 +51,7 @@
     </div>
 
     <div class="stat">
-        <span>Durabilidade</span>
+        <span data-label="durability">Durabilidade</span>
         <div class="progress-bar">
           <div class="fill"></div>
           <span class="percentage"></span>
@@ -66,7 +67,7 @@
     </div>
 
     <div class="stat">
-        <span>QI</span>
+        <span data-label="iq">QI</span>
         <div class="progress-bar">
           <div class="fill"></div>
           <span class="percentage"></span>
@@ -83,6 +84,6 @@
     <p>Este site é apenas um projeto de fã. Algumas informações podem não ser 100% precisas.</p>
   </footer>
 
-  <script src="scripts.js"></script>
+  <script src="scriptSupreme.js"></script>
 </body>
 </html>

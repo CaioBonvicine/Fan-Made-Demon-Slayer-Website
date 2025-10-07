@@ -11,6 +11,7 @@
 
   <header class="Gyokko-section">
     <div class="overlay"></div>
+    <button id="langToggle" class="lang-btn">EN 🇺🇸</button>
     <h1 class="titleGyokko">Gyokko</h1>
   </header>
 
@@ -25,8 +26,8 @@
         <a href="index.html" class="back-button">Go Back to Home</a>
       </div>
 
-      <h2>Gyokko - Lua Superior 5</h2>
-      <p>
+      <h2 data-template = "Gyokko-h2">Gyokko - Lua Superior 5</h2>
+      <p data-template = "Gyokko-p">
         Gyokko é um dos antagonistas principais do arco da Vila dos Ferreiros em <em>Demon Slayer: Kimetsu no Yaiba</em>. 
         Ele ocupa a posição de Lua Superior Cinco (Upper Rank Five) entre os Doze Kizuki, servindo diretamente a Muzan Kibutsuji.
         Sua habilidade única permite criar e manipular objetos de cerâmica vivos, tornando-o extremamente imprevisível e perigoso. 
@@ -43,7 +44,7 @@
     <h3>Status Base</h3>
 
     <div class="stat">
-        <span>Força</span>
+        <span data-label = "strength">Força</span>
         <div class="progress-bar">
           <div class="fill"></div>
           <span class="percentage"></span>
@@ -51,7 +52,7 @@
     </div>
 
     <div class="stat">
-        <span>Velocidade</span>
+        <span data-label="speed">Velocidade</span>
         <div class="progress-bar">
           <div class="fill"></div>
           <span class="percentage"></span>
@@ -59,7 +60,7 @@
     </div>
 
     <div class="stat">
-        <span>Durabilidade</span>
+        <span data-label="durability">Durabilidade</span>
         <div class="progress-bar">
           <div class="fill"></div>
           <span class="percentage"></span>
@@ -75,7 +76,7 @@
     </div>
 
     <div class="stat">
-        <span>QI</span>
+        <span data-label="iq">QI</span>
         <div class="progress-bar">
           <div class="fill"></div>
           <span class="percentage"></span>
@@ -87,6 +88,6 @@
     <p>Este site é apenas um site feito por fã, informações podem não ser precisas</p>
   </footer>
 
-  <script src="scripts.js"></script>
+  <script src="scriptSupreme.js"></script>
 </body>
 </html>

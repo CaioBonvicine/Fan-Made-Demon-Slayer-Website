@@ -167,3 +167,27 @@ footer {
   color: #aaa;
   margin-top: 2rem;
 }
+
+
+.lang-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #FFD700;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 0 10px #FFD700;
+  z-index: 1000;
+  transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+.lang-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #FFA500;
+  background-color: #FFA500;
+}
