@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d0d0d;
+  color: #e63946;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.main-banner {
+  position: relative;
+  background: url('imagens/HomeBackground.jpg') top center/cover no-repeat;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-banner .overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.main-title {
+  font-size: 3rem;
+  z-index: 1;
+  color: #e63946;
+  text-shadow: 0 0 15px #e63946;
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 2rem 1rem;
+}
+
+#searchInput {
+  width: 60%;
+  max-width: 400px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+#searchBtn {
+  padding: 0.5rem 1rem;
+  background: #e63946;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#searchBtn:hover {
+  background: #ff5555;
+}
+
+.oni-list {
+  padding: 2rem 1rem;
+}
+
+.oni-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.oni-btn {
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.oni-btn.muzan { background: #e63946; }
+.oni-btn.akaza { background: #2a4dff; }
+.oni-btn.douma { background: #ffd700; }
+.oni-btn.kokushibu { background: #6a0dad; }
+.oni-btn.hantengu { background: #c2185b; }
+.oni-btn.gyokko { background: #00bcd4; }
+.oni-btn.gyutaro { background: #006400; }
+
+.oni-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px currentColor;
+}
+
+footer {
+  background: #111;
+  padding: 1rem;
+  color: #aaa;
+  margin-top: 7rem;
+  text-align: center;
+}
+
+
+
+.lang-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #e63946;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 0 10px #e63946;
+  z-index: 1000;
+  transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+.lang-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ff5555;
+  background-color: #ff5555;
+}
+
