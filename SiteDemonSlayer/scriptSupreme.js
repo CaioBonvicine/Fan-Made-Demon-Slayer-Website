@@ -215,4 +215,3 @@ document.getElementById('searchInput').addEventListener('keypress', (e) => {
     document.getElementById('searchBtn').click();
   }
 });
-
