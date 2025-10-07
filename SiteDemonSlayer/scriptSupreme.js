@@ -21,26 +21,26 @@ document.addEventListener("DOMContentLoaded", () => {
       "Muzan-p": "Muzan Kibutsuji é o primeiro e mais poderoso Oni existente. Criado durante a era Heian, ele espalhou sua maldição e transformou inúmeros humanos em demônios para servir aos seus propósitos. Frio, calculista e imortal, Muzan busca incessantemente superar seus limites e eliminar todos que se opõem ao seu domínio.",
 
       "Kokushibu-h2": "Kokushibu - Lua Superior 1",
-      "Kokushibu-p1": "Kokushibu, anteriormente conhecido como Michikatsu Tsugikuni, é um dos antagonistas principais da série Demon Slayer: Kimetsu no Yaiba...",
-      "Kokushibu-p2": "Durante sua vida humana, Michikatsu era um samurai habilidoso que...",
-      "Kokushibu-p3": "Kokushibu é também o ancestral de Muichiro Tokito e Yuichiro Tokito...",
+      "Kokushibu-p1": "Kokushibu, anteriormente conhecido como Michikatsu Tsugikuni, é um dos antagonistas principais da série Demon Slayer: Kimetsu no Yaiba. Ele é o irmão gêmeo mais velho de Yoriichi Tsugikuni, o criador da Respiração do Sol e considerado o caçador de demônios mais poderoso da história...",
+      "Kokushibu-p2": "Durante sua vida humana, Michikatsu era um samurai habilidoso que, consumido pela inveja e desejo de superar seu irmão, buscou a imortalidade ao se aliar a Muzan Kibutsuji. Ao se tornar um demônio, ele preservou suas habilidades de espadachim e desenvolveu a Respiração da Lua, uma técnica derivada da Respiração do Sol. Como membro dos Doze Kizuki, ocupou a posição de Lua Superior 1, tornando-se o mais forte entre os servos de Muzan.",
+      "Kokushibu-p3": "Kokushibu é também o ancestral de Muichiro Tokito e Yuichiro Tokito, os Hashiras da Névoa. Sua história é marcada por tragédia, orgulho e uma busca incessante por poder, refletindo os temas centrais da série.",
 
       "Gyutaro-h2": "Gyutaro - Lua Superior 6",
-      "Gyutaro-p1": "Gyutaro é um dos principais antagonistas do Arco do Distrito do Entretenimento...",
-      "Gyutaro-p2": "Nascido em extrema pobreza e negligência, Gyutaro desenvolveu...",
-      "Gyutaro-p3": "Gyutaro luta utilizando foices de sangue...",
+      "Gyutaro-p1": "Gyutaro é um dos principais antagonistas do Arco do Distrito do Entretenimento em Demon Slayer: Kimetsu no Yaiba. Ele compartilha a posição de Lua Superior Seis com sua irmã Daki, formando uma dupla mortal que aterroriza o Distrito de Yoshiwara.",
+      "Gyutaro-p2": "Nascido em extrema pobreza e negligência, Gyutaro desenvolveu um profundo ressentimento em relação aos outros devido à sua aparência e sofrimento. Após ser transformado em demônio por Doma, ele se tornou um dos mais perigosos membros dos Doze Kizuki, graças à sua velocidade, regeneração e habilidades envenenadas únicas. ",
+      "Gyutaro-p3": "Gyutaro luta utilizando foices de sangue, combinando ataques físicos brutais com manipulação de sangue venenoso, o que o torna um adversário letal mesmo para Caçadores de Demônios de alto nível. ",
 
       "Gyokko-h2": "Gyokko - Lua Superior 5",
-      "Gyokko-p": "Gyokko é um dos antagonistas principais do arco da Vila dos Ferreiros...",
+      "Gyokko-p": "Gyokko é um dos antagonistas principais do arco da Vila dos Ferreiros em Demon Slayer: Kimetsu no Yaiba. Ele ocupa a posição de Lua Superior Cinco (Upper Rank Five) entre os Doze Kizuki, servindo diretamente a Muzan Kibutsuji. Sua habilidade única permite criar e manipular objetos de cerâmica vivos, tornando-o extremamente imprevisível e perigoso. Manipulador e cruel, Gyokko aterroriza seus inimigos enquanto busca eliminar qualquer ameaça ao seu poder.",
 
       "Hantengu-h2": "Hantengu - Lua Superior 4",
-      "Hantengu-p": "Hantengu é um dos antagonistas principais do arco da Vila dos Ferreiros...",
+      "Hantengu-p": " Hantengu é um dos antagonistas principais do arco da Vila dos Ferreiros em Demon Slayer: Kimetsu no Yaiba. Ele ocupa a posição de Lua Superior Quatro (Upper Rank Four) entre os Doze Kizuki, servindo diretamente a Muzan Kibutsuji. Sua habilidade única permite dividir-se em múltiplos clones, cada um representando um aspecto diferente de sua personalidade, tornando-o extremamente imprevisível e perigoso. Manipulador e cruel, Hantengu aterroriza seus inimigos enquanto busca eliminar qualquer ameaça ao seu poder.",
 
       "Akaza-h2": "Akaza - Lua Superior 3",
-      "Akaza-p": "Akaza é um dos Doze Luas Superiores, ocupando a posição de Lua Superior Três...",
+      "Akaza-p": "Akaza é um dos Doze Luas Superiores, ocupando a posição de Lua Superior Três.  Extremamente habilidoso em combate corpo a corpo, ele utiliza técnicas de artes marciais  demoníacas combinadas com uma força e velocidade sobre-humanas. Akaza busca incessantemente  adversários fortes, valorizando a batalha acima de tudo, e despreza aqueles que considera fracos.",
 
       "Douma-h2": "Douma - Lua Superior 2",
-      "Douma-p": "Douma é um dos antagonistas mais perigosos de Demon Slayer..."
+      "Douma-p": "Douma (童磨) é um dos antagonistas mais perigosos de Demon Slayer. Originalmente humano, foi transformado em demônio por Muzan Kibutsuji e tornou-se o Lua Superior 2. Líder do culto Eternal Paradise Faith, Douma atrai seguidores para seu próprio prazer macabro. Frio, insensível e psicopata, ele vê os humanos como alimento e se alimenta de suas emoções, especialmente da tristeza e desespero. Possui habilidades sobrenaturais, incluindo regeneração avançada, controle de gelo e ataques letais com leques de ferro. Douma foi finalmente derrotado por uma aliança de caçadores, utilizando veneno de flor de wisteria para superar sua regeneração."
     },
 
     en: {
